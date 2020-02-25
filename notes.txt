@@ -1,0 +1,24 @@
+Setup:
+- Ubuntu 18.04.3 LTS
+- rl coach/tensor flow
+
+- roscore 1.14.3, melodic
+- gazebo (used for martian world simulation)
+
+1. Need to use aws robomaker to create a development environment
+- Need to update subnets/vpc being used for project
+- Environment needs to be in root of cloud9 environment
+
+2. Need to clone git repo in cloud9 environment
+
+3. Need to setup roboMakerSettings for s3, vpc, subnets, security groups, etc
+
+4. Run > Workflow > Mars full sim
+
+Notes: 
+- kaken make?
+- colcon?
+
+Defintions:
+
+ROS - Robot Operating System
