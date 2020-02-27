@@ -18,7 +18,7 @@
         "cmdArgs": ""
       }
     },
-     {
+    {
       "id": "training-grounds-no-rl",
       "name": "training-grounds-no-rl",
       "type": "simulation",
@@ -114,12 +114,12 @@
           "outputLocation": "jplchallenge-training-output-bucket",
           "vpcConfig": {
             "subnets": [
-              "subnet-06ba1fd08d08a0a0c",
-              "subnet-08935076012fdae5b",
-              "subnet-078c97400ecc61a6c"
+              "subnet-06802189306526de5",
+              "subnet-0891fb8e29f729685",
+              "subnet-080e0e47cc9123753"
             ],
             "securityGroups": [
-              "sg-09bc4b79e12b417e6"
+              "sg-0cd6a3a454458209c"
             ],
             "assignPublicIp": true
           },
@@ -167,12 +167,12 @@
           "outputLocation": "jplchallenge-mars-bucket",
           "vpcConfig": {
             "subnets": [
-              "subnet-06ba1fd08d08a0a0c",
-              "subnet-08935076012fdae5b",
-              "subnet-078c97400ecc61a6c"
+              "subnet-06802189306526de5",
+              "subnet-0891fb8e29f729685",
+              "subnet-080e0e47cc9123753"
             ],
             "securityGroups": [
-              "sg-09bc4b79e12b417e6"
+              "sg-0cd6a3a454458209c"
             ],
             "assignPublicIp": true
           },
@@ -220,12 +220,12 @@
           "outputLocation": "jplchallenge-training-output-bucket",
           "vpcConfig": {
             "subnets": [
-              "subnet-06ba1fd08d08a0a0c",
-              "subnet-08935076012fdae5b",
-              "subnet-078c97400ecc61a6c"
+              "subnet-06802189306526de5",
+              "subnet-0891fb8e29f729685",
+              "subnet-080e0e47cc9123753"
             ],
             "securityGroups": [
-              "sg-09bc4b79e12b417e6"
+              "sg-0cd6a3a454458209c"
             ],
             "assignPublicIp": true
           },
