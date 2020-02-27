@@ -354,6 +354,7 @@ Resources:
             Principal:
               Service:
                 - robomaker.amazonaws.com
+                - ec2.amazonaws.com
             Action:
               - sts:AssumeRole
 
@@ -369,10 +370,7 @@ Resources:
           - Effect: Allow
             Action: 
               - s3:*
-            Resource: 
-              - !Sub "arn:aws:s3:::${TrainingBucket}"
-              - !Sub "arn:aws:s3:::${TrainingOutputBucket}"
-              - !Sub "arn:aws:s3:::${MarsBucket}"
+            Resource: "*"
           - Effect: Allow
             Action:
               - logs:CreateLogGroup
